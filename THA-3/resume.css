@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h3, h4,h6,h1 {
+      display: inline;
+      color: blue;
+      width: 150px;
+    }
+    #Top {
+      background-color: white;
+      position: absolute;
+      left: 45%;
+      z-index: 1;
+      padding: 20px 20px;
+    }
+    #left-side {
+      width: 40%;
+      position: relative;
+      top: 50px;
+    }
+    #vertical-line {
+      background-color: blue;
+      height: 600px;
+      width: 0.20px;
+      border: blue 4px;
+      position: absolute;
+      top: 50px;
+      right: 50%;
+    }
+    #right-side {
+      position: absolute;
+      top: 150px;
+      right: 10px;
+      width: 40%;
+    }
+    #main {
+      border: 2px blue;
+      position: relative;
+      top: 40px;
+      padding: 20px 20px;
+      height: 650px;
+    }
+    #bottom{
+     position: relative;
+      top: 200px;
+    right: 5x;
+      width: 50%;
+    }
+    
+  </style>
+  
+  <body>
+    <div id="Top">
+      <h1>PhantomOz</h1>
+      <p>SDE</p>
+    </div>
+    <div id="main">
+      <div id="left-side">
+        <h3>Personal Profile</h3>
+        <br>
+        Hi! I'm a high senior with a knack for verbal communication and public
+        speaking. I'm looking for an internship in the digital marketing industry.
+        <br>
+  
+        <h3>Honors & Achievements</h3>
+        <br>
+        <ul>
+          <li>Beechtown Honor Society Member</li>
+          <li>Borghide High School Academic Honor Roll</li>
+          <li>Borghide Youth Club Leader's Award</li>
+          <li>1st Place Award in Public Speaking</li>
+        </ul>
+        <br>
+  
+        <h3>Contact Detail</h3>
+        <br>
+        Number: 123-456-7890
+        <br>
+        Email: hello@reallygreatsite.com
+        <br>
+        Website: www.reallygreatsite.com
+        <br>
+        Address: 123, Anywhere St., Any City, State, Country 12345
+        <br>
+  
+        <h2>Personal Interests</h2>
+        <ul>
+          <li>Playing the Piano and Trombone.</li>
+          <li>Charity Weekend Volunteer Work.</li>
+          <li>Tutor for English,Maths and Science.</li>
+          <li>Travelling ,Swimming,Hiking.</li>
+          <li>Reading Fiction Novels.</li>
+        </ul>
+      </div>
+      <div id="vertical-line"></div>
+      <div id="right-side">
+        <h2>Work Experience</h2><br>
+        <h4>Accounts Intern</h4><br>
+        <h6>Plassive Digital Studio Inc.</h6><br>
+        <ul>
+          <li>
+            Worked closely with the accounts team in creating strategies,meeting and creating strategies,meeting clients and coordinating with the creatives team.I also did client  presentations.
+          </li>
+        </ul>
+        <h4>Accounts Intern</h4><br>
+        <h6>Plassive Digital Studio Inc.</h6>
+        <ul>
+          <li>
+            Worked closely with the accounts team in creating strategies,meeting and creating strategies,meeting clients and coordinating with the creatives team.I also did client  presentations.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="bottom">
+        <h2>Academic Background</h2><br>
+        <h4>Accounts Intern</h4><br>
+        <h6>Plassive Digital Studio Inc.</h6><br>
+        <ul>
+          <li>
+            Worked closely with the accounts team in creating strategies,meeting and creating strategies,meeting clients and coordinating with the creatives team.I also did client  presentations.
+          </li>
+        </ul>
+        <h4>Accounts Intern</h4><br>
+        <h6>Plassive Digital Studio Inc.</h6>
+        <ul>
+          <li>
+            Worked closely with the accounts team in creating strategies,meeting and creating strategies,meeting clients and coordinating with the creatives team.I also did client  presentations.
+          </li>
+        </ul>
+      </div>
+
+    
+</body>
+</html>
